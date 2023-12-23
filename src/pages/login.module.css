@@ -1,0 +1,41 @@
+.Login {
+  margin-top: 20px;
+}
+
+.Login p {
+  font-size: 20px;
+}
+
+.Login button {
+  margin-top: 15px;
+  background: slateblue;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  border: none; /* Remove the button border */
+  outline: none; /* Remove the button outline on focus */
+  transition: background 0.3s ease;
+}
+
+.Login .signoutbtn{
+  margin-top: 15px;
+  background: white;
+  border-color: slateblue;
+  color: slateblue;
+  cursor: pointer;
+  font-size: 15px;
+  width: 200px;
+  height: 60px;
+  border-radius: 50px;
+  border: none; /* Remove the button border */
+  outline: none; /* Remove the button outline on focus */
+  transition: background 0.3s ease;
+}
+
+.Login button:hover {
+  background-color: #492CB7;
+  color: white;
+}

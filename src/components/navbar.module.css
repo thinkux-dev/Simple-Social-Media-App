@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #f0f0f0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 80px;
+  background: slateblue;
+  color: white;
+}
+
+.Nav a{
+  text-decoration: none;
+  /* text-decoration-thickness: 3px; /* Set the underline thickness */
+  /* text-decoration-skip-ink: none; Prevent underlines from skipping descenders */
+  margin: 10px;
+  padding-bottom: 2px;
+  color: white;
+  font-size: 20px;
+  border-bottom: 3px solid white;
+}
+
+.Nav .Links {
+  text-align: center;
+  margin-right: 50px;
+}
+
+.Nav .user {
+  display: flex;
+  align-items: center;
+}
+
+.user p {
+  margin-right: 10px;
+  font-size: 15px;
+  color: white;
+}
+
+.user img {
+  border-radius: 50%;
+  margin-right: 20px;
+  font-size: 15px;
+}
+
+.signoutbtn {
+  cursor: pointer;
+}
